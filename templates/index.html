@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <form class="container" action="{{ url_for('predict')}}" method="post">
+        <div class="mb-3">
+            <label for="department" class="form-label">Department</label>
+            <input type="text" class="form-control" id="department" name = "department" placeholder="department">
+    
+            <label for="education" class="form-label">education</label>
+            <input type="text" class="form-control" id="education" name = "education" placeholder="education">
+
+            <label for="gender" class="form-label">gender</label>
+            <input type="text" class="form-control" id="gender" name = "gender" placeholder="gender">
+    
+            <label for="age" class="form-label">age</label>
+            <input type="text" class="form-control" id="age" name = "age" placeholder="SU">
+    
+            <label for="length_of_service" class="form-label">length_of_service</label>
+            <input type="text" class="form-control" id="length_of_service" name = "length_of_service" placeholder="length_of_service">
+    
+            <label for="total_score" class="form-label">total_score</label>
+            <input type="text" class="form-control" id="text" name = "total_score" placeholder="total_score">
+    
+            <label for="sum_metrics" class="form-label">sum_metrics</label>
+            <input type="text" class="form-control" id="sum_metrics" name = "sum_metrics" placeholder="sum_metrics">
+    
+            <button type="submit" class="btn btn-dark">Predict</button>
+        </form>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
