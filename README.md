@@ -65,3 +65,5 @@ python app.py
 ```
 ## Author 
 #### [Shailesh Gaddam](https://github.com/shailesh2210)
+## Follow me
+#### [Github](https://github.com/shailesh2210) | [Linkedin](https://www.linkedin.com/in/shailesh-gaddam-262988218/)
