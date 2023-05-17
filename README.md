@@ -4,11 +4,12 @@ This project is a machine learning project that predicts employee promotion. It 
 
 The project uses a variety of factors to predict employee promotion, such as performance reviews, training history, and awards won. The project is accurate and fair, and it does not discriminate against employees on the basis of factors.
 
+![Are-Your-Employees-ready-for-a-promotion](https://github.com/shailesh2210/Employee-Promotion-Prediction/assets/79017620/6d0c0ae4-d30c-4630-ad5b-c55e57bdd3a1)
 
 ## Goal of this project
 The aim is to analyze the various factors that can contribute to the promotion of an employee. Based on the analysis, predict which employees will be promoted.
 
-### Data
+## Data Information
 A large MNC have 9 broad verticals across the organisation. One of the problem is identifying the right people for promotion (only for manager position and below) and prepare them in time.
 
 The final promotions are only announced after the evaluation and this leads to delay in transition to new roles. Hence, company needs help in identifying the eligible candidates at a particular checkpoint so that they can expedite the entire promotion cycle.
@@ -32,11 +33,35 @@ Features:
 - is_promoted: (Target) Recommended for promotion
 
 ## [Dataset](https://www.kaggle.com/datasets/arashnic/hr-ana)
-## Packages Used
+## Tech Stack Used
 - pandas
 - numpy
 - matplotlib
 - seaborn
 - sklearn
 - flask
+- HTML
+- Bootstrap
 
+## To access this project
+### Setup 1: Clone the repo
+``` setup
+https://github.com/shailesh2210/Employee-Promotion-Prediction.git
+```
+### Step 2- Create a conda environment after opening the repository
+```javascript
+conda create -n venv python=3.8 -y
+```
+```javascript
+conda activate venv
+```
+### Step 3 - Install the requirements
+```javascript
+pip install -r requirements.txt
+```
+### Step 4 - Run the application server
+```javascript
+python app.py
+```
+## Author 
+#### [Shailesh Gaddam](https://github.com/shailesh2210)
